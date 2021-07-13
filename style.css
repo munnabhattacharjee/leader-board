@@ -1,9 +1,17 @@
 /* ------------------
     common styles 
 --------------------- */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
 body{
     margin: 0;
     background-color: #F3F1FF;
+    font-family: 'Poppins', sans-serif;
+}
+hr{
+    border: 1px solid #341f97;
+    width: 800px;
+    margin-bottom: 40px;
+
 }
 
 /* -------------------
@@ -33,8 +41,58 @@ body{
     padding-right: 30px;
     text-decoration: none;
     color: white;
-    font-size: 25px;
+    font-size: 20px;
 }
 /* -----------------------
     navigation styles end 
 -------------------------- */
+/* -----------------------
+    Players styles
+-------------------------- */
+main{
+    display: flex;
+    justify-content: center;
+}
+.container{
+    background-color: white;
+    margin-top: 35px;
+    width: 900px;
+    border-radius: 10px;
+    transition: transform 0.5s linear;
+}
+.container:hover{
+    border: 4px solid #341f97;
+    transform: scale(1.05);
+    
+}
+.top-players{
+    margin: 40px;
+}
+.player-heading{
+    color: #341f97;
+    margin-bottom: 40px;
+    margin-top: 40px;
+    text-align: center;
+}
+.players{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-row-gap: 30px;
+}
+.player{
+    display: flex;
+    align-items: center;
+}
+.player-img{
+    width: 55px;
+    height: 55px;
+    margin-right: 20px;
+}
+.player-img:hover{
+    border: 3px solid #341f97;
+    border-radius: 50px; 
+}
+.player-info{
+    font-size: 18px;
+    font-weight: 500;
+}
