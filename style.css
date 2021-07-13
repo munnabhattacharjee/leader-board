@@ -58,6 +58,7 @@ main{
     margin-top: 35px;
     width: 900px;
     border-radius: 10px;
+    filter: drop-shadow(.1rem .1rem 0.3rem  #341f97);
     transition: transform 0.5s linear;
 }
 .container:hover{
