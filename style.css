@@ -1,0 +1,40 @@
+/* ------------------
+    common styles 
+--------------------- */
+body{
+    margin: 0;
+    background-color: #F3F1FF;
+}
+
+/* -------------------
+    navigation styles 
+---------------------- */
+.nav-bar{
+    background-color: #341f97;
+    height: 90px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.logo-area{
+    padding-top: 20px;
+    margin-left: 280px;
+}
+.logo{
+    width: 40 px;
+    height: 50px;
+}
+.page-profile{
+    display: flex;
+    align-items: center;
+    margin-right: 280px;
+}
+.page{
+    padding-right: 30px;
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+}
+/* -----------------------
+    navigation styles end 
+-------------------------- */
