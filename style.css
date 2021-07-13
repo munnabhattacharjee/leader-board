@@ -26,7 +26,7 @@ hr{
 }
 .logo-area{
     padding-top: 20px;
-    margin-left: 280px;
+    margin-left: 520px;
 }
 .logo{
     width: 40 px;
@@ -35,7 +35,7 @@ hr{
 .page-profile{
     display: flex;
     align-items: center;
-    margin-right: 280px;
+    margin-right: 520px;
 }
 .page{
     padding-right: 30px;
@@ -96,3 +96,46 @@ main{
     font-size: 18px;
     font-weight: 500;
 }
+/* ---------------------
+    responsiveness 
+------------------------ */
+@media only screen and (max-width: 767px) {
+    .container{
+        width: 90%;
+    }
+    hr{
+        width: 50%;
+    }
+    .players{
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .player{
+        flex-direction: column;
+    }
+    .nav-bar{
+        width: 100%;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .logo-area{
+        margin-left: 5%;
+    }
+
+    .page{
+        padding-right: 10px;
+        text-decoration: none;
+        color: white;
+        font-size: 12px;
+    }
+    .page-profile img{
+        width: 40px;
+        height: 40px;
+    }
+    
+    .page-profile{
+        display: flex;
+        margin-right: 5%;
+        align-items: center;
+    }
+}
+    
